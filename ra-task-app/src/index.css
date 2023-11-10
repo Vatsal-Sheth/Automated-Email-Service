@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f2f0f7; /* Light purple background */
+}
+
+.container {
+  text-align: center;
+}
+
+.form {
+  background-color: #ffffff; /* White background for the form */
+  border: 2px solid #5a0075; /* Dark purple border */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #000000; /* Bold black color for label text */
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #5a0075; /* Dark purple border for input fields */
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #5a0075; /* Dark purple background for the button */
+  color: #ffffff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submission-status {
+  margin-top: 20px;
+  color: #5a0075; /* Dark purple color for submission status */
+  font-weight: bold;
+}
+
+.footer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #5a0075; /* Dark purple color for footer text */
+}
+
+.footer-content {
+  text-align: left;
+}
+
